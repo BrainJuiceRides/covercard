@@ -11,14 +11,14 @@ background: 'background.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
-#dribbble: 'mydribbble'
 youtube: 'myyoutube'
 instagram: 'myinsta'
 github-user: 'mygithub'
 blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
+email: 'brainjuicerides@gmail.com'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+#social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [youtube,instagram,blog_url,email,github-user]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -56,6 +56,6 @@ social-links:
     icon-class: fas fa-2x fa-blog
 
   - name: email
-    url-scheme: 'mailto:brainjuicerides@gmail.com'
+    url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
